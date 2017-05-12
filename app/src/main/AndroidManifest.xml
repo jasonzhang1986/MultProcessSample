@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity" android:label="私有进程" android:process=":remote"/>
-        <activity android:name=".ThirdActivity" android:label="公有进程" android:process="me.jifengzhang.multprocesssample.remote"/>
+        <activity android:name=".ThirdActivity" android:label="全局进程" android:process="me.jifengzhang.multprocesssample.remote"/>
     </application>
 
 </manifest>
